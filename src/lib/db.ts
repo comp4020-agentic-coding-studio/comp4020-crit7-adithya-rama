@@ -15,6 +15,9 @@ mkdirSync(dirname(path), { recursive: true });
 
 const client = new Database(path);
 client.pragma("journal_mode = WAL");
+// SQLite ships with foreign keys OFF, per connection — without this the
+// schema's references() clauses are documentation, not constraints
+client.pragma("foreign_keys = ON");
 
 export const db = drizzle(client);
 
