@@ -1,0 +1,22 @@
+import {it,expect} from "vitest";
+import {mkdtempSync,mkdirSync,readFileSync,writeFileSync,copyFileSync} from "node:fs";
+import {tmpdir} from "node:os";
+import {join} from "node:path";
+import Database from "better-sqlite3";
+import {drizzle} from "drizzle-orm/better-sqlite3";
+import {migrate} from "drizzle-orm/better-sqlite3/migrator";
+it("upgrades the original starter/accounts database without deleting its data",()=>{
+ const dir=mkdtempSync(join(tmpdir(),"planner-upgrade-")),old=join(dir,"old");mkdirSync(join(old,"meta"),{recursive:true});
+ const journal=JSON.parse(readFileSync("drizzle/meta/_journal.json","utf8"));journal.entries=journal.entries.filter((e:{idx:number})=>e.idx<=1);
+ writeFileSync(join(old,"meta/_journal.json"),JSON.stringify(journal));
+ for(const e of journal.entries)copyFileSync("drizzle/"+e.tag+".sql",join(old,e.tag+".sql"));
+ const client=new Database(join(dir,"app.db"));client.pragma("foreign_keys=ON");const db=drizzle(client);
+ migrate(db,{migrationsFolder:old});
+ client.prepare("INSERT INTO messages(body) VALUES (?)").run("Original starter record");
+ client.prepare("INSERT INTO users(username,password_hash) VALUES (?,?)").run("existing_account","retained-hash");
+ migrate(db,{migrationsFolder:"drizzle"});migrate(db,{migrationsFolder:"drizzle"});
+ expect(client.prepare("SELECT body FROM messages").get()).toEqual({body:"Original starter record"});
+ expect(client.prepare("SELECT password_hash FROM users").get()).toEqual({password_hash:"retained-hash"});
+ expect((client.prepare("PRAGMA table_info(selections)").all() as {name:string}[]).some(c=>c.name==="topic")).toBe(true);
+ client.close();
+});

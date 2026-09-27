@@ -15,6 +15,20 @@
       "when": 1790482938828,
       "tag": "0001_fixed_celestials",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790483719448,
+      "tag": "0002_unknown_malice",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1790485784707,
+      "tag": "0003_known_dagger",
+      "breakpoints": true
     }
   ]
 }

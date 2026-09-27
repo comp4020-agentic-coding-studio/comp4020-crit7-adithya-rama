@@ -1,0 +1,4913 @@
+{
+  "release": "anu-2026-09-27-v1",
+  "programs": [
+    {
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/program/7706XMCOMP",
+      "total": 96,
+      "level8Min": 24,
+      "ambiguities": [],
+      "specialisations": [
+        {
+          "name": "Artificial Intelligence",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:COMP6262",
+              "name": "COMP6262 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6262"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:COMP6320",
+              "name": "COMP6320 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6320"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:COMP8620",
+              "name": "COMP8620 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP8620"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:COMP8691",
+              "name": "COMP8691 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP8691"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "ARTIF-SPEC",
+          "year": 2025,
+          "source": "https://programsandcourses.anu.edu.au/2025/specialisation/ARTIF-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Computer Systems",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:systems-advanced",
+              "name": "Advanced systems",
+              "min": 12,
+              "max": 24,
+              "codes": [
+                "COMP8300",
+                "COMP8045",
+                "COMP8712"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:systems-foundations",
+              "name": "Systems foundations",
+              "min": 0,
+              "max": 12,
+              "codes": [
+                "COMP6310",
+                "COMP6330",
+                "COMP6331",
+                "COMP6361",
+                "COMP6464",
+                "ENGN6213"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "CMSY-SPEC",
+          "year": 2025,
+          "source": "https://programsandcourses.anu.edu.au/2025/specialisation/CMSY-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Computational Foundations",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:foundations-first",
+              "name": "Computational foundations · first list",
+              "min": 12,
+              "max": 24,
+              "codes": [
+                "COMP6361",
+                "COMP6363",
+                "COMP8011",
+                "COMP8460",
+                "MATH6114",
+                "MATH8343"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:foundations-second",
+              "name": "Computational foundations · second list",
+              "min": 0,
+              "max": 12,
+              "codes": [
+                "COMP6261",
+                "COMP6262",
+                "COMP6466",
+                "COMP8712"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "COMP-SPEC",
+          "year": 2025,
+          "source": "https://programsandcourses.anu.edu.au/2025/specialisation/COMP-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Data Science",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:COMP6240",
+              "name": "COMP6240 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6240"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:COMP8410",
+              "name": "COMP8410 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP8410"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:COMP8430",
+              "name": "COMP8430 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP8430"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:data-option",
+              "name": "Data science option",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6490",
+                "COMP6670",
+                "COMP8600",
+                "COMP8650",
+                "COMP8880",
+                "STAT6039"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "DTSC-SPEC",
+          "year": 2025,
+          "source": "https://programsandcourses.anu.edu.au/2025/specialisation/DTSC-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Human-Centred and Creative Computing",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:COMP6390",
+              "name": "COMP6390 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6390"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:hcc-advanced",
+              "name": "Advanced human-centred computing",
+              "min": 12,
+              "max": 18,
+              "codes": [
+                "COMP8350",
+                "COMP8539",
+                "COMP8610"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:hcc-options",
+              "name": "Human-centred computing options",
+              "min": 0,
+              "max": 6,
+              "codes": [
+                "COMP6528",
+                "COMP6540",
+                "COMP6720",
+                "COMP6780"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "HCCM-SPEC",
+          "year": 2025,
+          "source": "https://programsandcourses.anu.edu.au/2025/specialisation/HCCM-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Machine Learning",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:machine-learning",
+              "name": "Machine learning courses",
+              "min": 24,
+              "max": 24,
+              "codes": [
+                "COMP6261",
+                "COMP6490",
+                "COMP6528",
+                "COMP6670",
+                "COMP8600",
+                "COMP8650",
+                "COMP8880"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "MCHL-SPEC",
+          "year": 2025,
+          "source": "https://programsandcourses.anu.edu.au/2025/specialisation/MCHL-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Professional Computing",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:COMP6120",
+              "name": "COMP6120 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6120"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:ENGN8100",
+              "name": "ENGN8100 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "ENGN8100"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:professional-option",
+              "name": "Professional computing option",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6240",
+                "COMP6331",
+                "COMP6390",
+                "INFS8004",
+                "INFS8205",
+                "LAWS8445",
+                "MGMT7020",
+                "REGN8014"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:professional-advanced",
+              "name": "Further 8000-level COMP",
+              "min": 6,
+              "max": 6,
+              "parent": "specialisation",
+              "subjects": [
+                "COMP"
+              ],
+              "minLevel": 8000,
+              "maxLevel": 8000,
+              "exclude": [
+                "COMP8715",
+                "COMP8800",
+                "COMP8830"
+              ]
+            }
+          ],
+          "code": "PCOM-SPEC",
+          "year": 2025,
+          "source": "https://programsandcourses.anu.edu.au/2025/specialisation/PCOM-SPEC",
+          "ambiguities": []
+        }
+      ],
+      "buckets": [
+        {
+          "id": "core:COMP6250",
+          "name": "COMP6250 · compulsory",
+          "min": 6,
+          "max": 6,
+          "codes": [
+            "COMP6250"
+          ]
+        },
+        {
+          "id": "core:COMP6442",
+          "name": "COMP6442 · compulsory",
+          "min": 6,
+          "max": 6,
+          "codes": [
+            "COMP6442"
+          ]
+        },
+        {
+          "id": "core:COMP6710",
+          "name": "COMP6710 · compulsory",
+          "min": 6,
+          "max": 6,
+          "codes": [
+            "COMP6710"
+          ]
+        },
+        {
+          "id": "core:COMP8260",
+          "name": "COMP8260 · compulsory",
+          "min": 6,
+          "max": 6,
+          "codes": [
+            "COMP8260"
+          ]
+        },
+        {
+          "id": "foundation",
+          "name": "Mathematical foundations",
+          "min": 6,
+          "max": 6,
+          "codes": [
+            "MATH6005",
+            "COMP6260"
+          ]
+        },
+        {
+          "id": "project",
+          "name": "Computing project / internship",
+          "min": 12,
+          "max": 12,
+          "codes": [
+            "COMP8715",
+            "COMP8830"
+          ]
+        },
+        {
+          "id": "further",
+          "name": "Further COMP / ENGN study",
+          "min": 18,
+          "max": 18,
+          "subjects": [
+            "COMP",
+            "ENGN"
+          ],
+          "minLevel": 6000,
+          "maxLevel": 8000
+        },
+        {
+          "id": "elective",
+          "name": "University electives",
+          "min": 12,
+          "max": 12
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/program/7706XMCOMP",
+      "total": 96,
+      "level8Min": 24,
+      "ambiguities": [],
+      "specialisations": [
+        {
+          "name": "Artificial Intelligence",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:COMP6262",
+              "name": "COMP6262 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6262"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:COMP6320",
+              "name": "COMP6320 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6320"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:COMP8620",
+              "name": "COMP8620 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP8620"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:COMP8691",
+              "name": "COMP8691 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP8691"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "ARTIF-SPEC",
+          "year": 2026,
+          "source": "https://programsandcourses.anu.edu.au/2026/specialisation/ARTIF-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Computer Systems",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:systems-advanced",
+              "name": "Advanced systems",
+              "min": 12,
+              "max": 24,
+              "codes": [
+                "COMP8300",
+                "COMP8045",
+                "COMP8712"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:systems-foundations",
+              "name": "Systems foundations",
+              "min": 0,
+              "max": 12,
+              "codes": [
+                "COMP6310",
+                "COMP6330",
+                "COMP6331",
+                "COMP6361",
+                "COMP6464",
+                "ENGN6213",
+                "COMP6300"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "CMSY-SPEC",
+          "year": 2026,
+          "source": "https://programsandcourses.anu.edu.au/2026/specialisation/CMSY-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Computational Foundations",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:foundations-first",
+              "name": "Computational foundations · first list",
+              "min": 12,
+              "max": 24,
+              "codes": [
+                "COMP6361",
+                "COMP6363",
+                "COMP8011",
+                "COMP8460",
+                "MATH6114",
+                "MATH8343"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:foundations-second",
+              "name": "Computational foundations · second list",
+              "min": 0,
+              "max": 12,
+              "codes": [
+                "COMP6261",
+                "COMP6262",
+                "COMP6466",
+                "COMP8712"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "COMP-SPEC",
+          "year": 2026,
+          "source": "https://programsandcourses.anu.edu.au/2026/specialisation/COMP-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Data Science",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:COMP6240",
+              "name": "COMP6240 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6240"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:COMP8410",
+              "name": "COMP8410 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP8410"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:COMP8430",
+              "name": "COMP8430 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP8430"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:data-option",
+              "name": "Data science option",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6490",
+                "COMP6670",
+                "COMP8600",
+                "COMP8650",
+                "COMP8880"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "DTSC-SPEC",
+          "year": 2026,
+          "source": "https://programsandcourses.anu.edu.au/2026/specialisation/DTSC-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Human-Centred and Creative Computing",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:COMP6390",
+              "name": "COMP6390 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "COMP6390"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:hcc-advanced",
+              "name": "Advanced human-centred computing",
+              "min": 12,
+              "max": 18,
+              "codes": [
+                "COMP8350",
+                "COMP8539",
+                "COMP8610"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:hcc-options",
+              "name": "Human-centred computing options",
+              "min": 0,
+              "max": 6,
+              "codes": [
+                "COMP6528",
+                "COMP6540",
+                "COMP6720",
+                "COMP6780"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "HCCM-SPEC",
+          "year": 2026,
+          "source": "https://programsandcourses.anu.edu.au/2026/specialisation/HCCM-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Machine Learning",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:machine-learning",
+              "name": "Machine learning courses",
+              "min": 24,
+              "max": 24,
+              "codes": [
+                "COMP6261",
+                "COMP6490",
+                "COMP6528",
+                "COMP6670",
+                "COMP8600",
+                "COMP8650",
+                "COMP8880"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "MCHL-SPEC",
+          "year": 2026,
+          "source": "https://programsandcourses.anu.edu.au/2026/specialisation/MCHL-SPEC",
+          "ambiguities": []
+        },
+        {
+          "name": "Software Development",
+          "level8Min": 12,
+          "buckets": [
+            {
+              "id": "spec:software-replacement",
+              "name": "COMP6120 replacement · 6000/8000 COMP",
+              "min": 6,
+              "max": 6,
+              "parent": "specialisation",
+              "subjects": [
+                "COMP"
+              ],
+              "levels": [
+                6000,
+                8000
+              ],
+              "exclude": [
+                "COMP6120"
+              ]
+            },
+            {
+              "id": "spec:ENGN8100",
+              "name": "ENGN8100 · specialisation",
+              "min": 6,
+              "max": 6,
+              "codes": [
+                "ENGN8100"
+              ],
+              "parent": "specialisation"
+            },
+            {
+              "id": "spec:software-advanced",
+              "name": "Further 8000-level COMP",
+              "min": 6,
+              "max": 6,
+              "parent": "specialisation",
+              "subjects": [
+                "COMP"
+              ],
+              "minLevel": 8000,
+              "maxLevel": 8000,
+              "exclude": [
+                "COMP8715",
+                "COMP8800",
+                "COMP8830"
+              ]
+            },
+            {
+              "id": "spec:software-option",
+              "name": "Software development option",
+              "min": 0,
+              "max": 12,
+              "codes": [
+                "COMP6240",
+                "COMP6331",
+                "COMP6390",
+                "INFS8004",
+                "INFS8205",
+                "LAWS8445",
+                "MGMT7020",
+                "REGN8014"
+              ],
+              "parent": "specialisation"
+            }
+          ],
+          "code": "SOFT-SPEC",
+          "year": 2026,
+          "source": "https://programsandcourses.anu.edu.au/2026/specialisation/SOFT-SPEC",
+          "ambiguities": []
+        }
+      ],
+      "buckets": [
+        {
+          "id": "core:COMP6120",
+          "name": "COMP6120 · compulsory",
+          "min": 6,
+          "max": 6,
+          "codes": [
+            "COMP6120"
+          ]
+        },
+        {
+          "id": "core:COMP6442",
+          "name": "COMP6442 · compulsory",
+          "min": 6,
+          "max": 6,
+          "codes": [
+            "COMP6442"
+          ]
+        },
+        {
+          "id": "core:COMP7710",
+          "name": "COMP7710 · compulsory",
+          "min": 12,
+          "max": 12,
+          "codes": [
+            "COMP7710"
+          ]
+        },
+        {
+          "id": "core:COMP8280",
+          "name": "COMP8280 · compulsory",
+          "min": 6,
+          "max": 6,
+          "codes": [
+            "COMP8280"
+          ]
+        },
+        {
+          "id": "foundation",
+          "name": "Mathematical foundations",
+          "min": 6,
+          "max": 96,
+          "codes": [
+            "MATH6005",
+            "COMP6260"
+          ]
+        },
+        {
+          "id": "project",
+          "name": "Computing project / internship",
+          "min": 0,
+          "max": 12,
+          "codes": [
+            "COMP8715",
+            "COMP8830"
+          ]
+        },
+        {
+          "id": "further",
+          "name": "Further COMP / ENGN study",
+          "min": 18,
+          "max": 18,
+          "subjects": [
+            "COMP",
+            "ENGN"
+          ],
+          "minLevel": 6000,
+          "maxLevel": 8000
+        },
+        {
+          "id": "elective",
+          "name": "University electives",
+          "min": 6,
+          "max": 6
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "code": "COMP6120",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6120",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6442",
+          "COMP2100"
+        ],
+        "concurrent": true
+      },
+      "incompatible": [
+        "COMP2120"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have successfully completed or be currently studying COMP6442 or COMP2100.\nIncompatible with COMP2120.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6240",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6240",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP2400",
+        "COMP7240"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you have successfully completed COMP2400. Incompatible with COMP7240.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6250",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6250",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "6906XGDCP",
+          "MMLCV"
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in Graduate Diploma of Computing or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6260",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6260",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP1600"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible with COMP1600",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6261",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6261",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP2610",
+        "ENGN8534"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You cannot enrol in this course if you have completed COMP2610 or ENGN8534.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6262",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6262",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "PHIL2080",
+        "COMP2620"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you have previously completed PHIL2080 or COMP2620.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6300",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6300",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7706XMCOMP",
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP7710",
+              "COMP1110"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP2300",
+        "ENGN2219",
+        "COMP6719"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be:\nstudying a Master of Computing OR Master of Computing (Advanced)\nOR \nhave completed\nCOMP6710 OR COMP7710 OR COMP1110.\nIncompatible with COMP2300, ENGN2219 and COMP6719.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6310",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6310",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must have completed (or have an exemption for):\nCOMP6300 AND \nCOMP6710 or COMP1110.\nYou will not be able to enrol in the course if you have completed COMP2310."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed (or have an exemption for):\nCOMP6300 AND \nCOMP6710 or COMP1110.\nYou will not be able to enrol in the course if you have completed COMP2310.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6320",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6320",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must have completed COMP6710 OR COMP1110\nAND\nhave completed or be currently enrolled in COMP6262 OR COMP2620 OR PHIL2080.\nIncompatible with COMP3620."
+      },
+      "incompatible": [
+        "COMP3620"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6710 OR COMP1110\nAND\nhave completed or be currently enrolled in COMP6262 OR COMP2620 OR PHIL2080.\nIncompatible with COMP3620.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6330",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6330",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6300"
+            ],
+            "concurrent": true
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP2300",
+              "ENGN2219"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3300"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be:\nstudying a Master of Computing (Advanced) \nOR \nbe enrolled in or have completed COMP6300 or\nhave completed COMP2300 or ENGN2219.\nIncompatible with COMP3300.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6331",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6331",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must have completed:\nCOMP6710 OR COMP1110 OR COMP1140 OR\nCOMP6310 OR COMP2310 OR\nCOMP6442 OR COMP2100.\nIncompatible with COMP3310, ENGN3539, ENGN6539."
+      },
+      "incompatible": [
+        "COMP3310",
+        "ENGN3539",
+        "ENGN6539"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed:\nCOMP6710 OR COMP1110 OR COMP1140 OR\nCOMP6310 OR COMP2310 OR\nCOMP6442 OR COMP2100.\nIncompatible with COMP3310, ENGN3539, ENGN6539.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6361",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6361",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6260"
+                ],
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          }
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": ".To enrol in this course you must have successfully completed COMP6710 and COMP6260; or be enrolled in Master of Computing (Advanced)",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6363",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6363",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP"
+        ]
+      },
+      "incompatible": [
+        "COMP3630"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying Master of Computing OR Master of Computing (Advanced).\nIncompatible with COMP3630.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6390",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6390",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7706XMCOMP",
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6442",
+              "COMP6710",
+              "COMP6720"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3900"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying Master of Computing OR Master of Computing Advanced \nOR\nhave completed 6 units of (COMP6442 OR COMP6710 OR COMP6720). \nIncompatible with COMP3900.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6442",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6442",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must have either:\ncompleted COMP6700 OR COMP6710 OR COMP1110 OR COMP1140; AND\nhave completed or currently be enrolled in MATH6005 OR COMP6260 OR MATH1005 OR COMP1600;\nOR\nbe enrolled in Master of Computing (Advanced).\nIncompatible with COMP2100."
+      },
+      "incompatible": [
+        "COMP2100"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have either:\ncompleted COMP6700 OR COMP6710 OR COMP1110 OR COMP1140; AND\nhave completed or currently be enrolled in MATH6005 OR COMP6260 OR MATH1005 OR COMP1600;\nOR\nbe enrolled in Master of Computing (Advanced).\nIncompatible with COMP2100.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6464",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6464",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must:\nbe studying Master of Computing or \nMaster of Computing (Advanced) or \nhave successfully completed COMP6710 or COMP1110.\nYou are not able to enrol in this course if you have previously completed COMP3320."
+      },
+      "incompatible": [
+        "COMP3320"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying Master of Computing or \nMaster of Computing (Advanced) or \nhave successfully completed COMP6710 or COMP1110.\nYou are not able to enrol in this course if you have previously completed COMP3320.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6466",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6466",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must:\nbe studying Master of Computing or Master of Computing Advanced\nor have successfully completed COMP6710 or COMP1110 or COMP1140.\nYou are not able to enrol in this course if you have successfully completed COMP3600."
+      },
+      "incompatible": [
+        "COMP3600"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying Master of Computing or Master of Computing Advanced\nor have successfully completed COMP6710 or COMP1110 or COMP1140.\nYou are not able to enrol in this course if you have successfully completed COMP3600.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6490",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6490",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6240",
+                  "COMP2400",
+                  "COMP6260",
+                  "COMP1600",
+                  "COMP6442",
+                  "COMP2100"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6730",
+                  "COMP1730",
+                  "COMP6710",
+                  "COMP1110"
+                ],
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4650",
+        "COMP6990"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in\nVCOMP\n OR \nhave completed 6 units of: (COMP6240/2400 OR COMP6260/1600 OR COMP6442/2100)\nAND\nhave completed 6 units of: (COMP6730/1730 OR COMP6710/1110).\nIncompatible with COMP4650 and COMP6990.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6528",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6528",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "6906XGDCP",
+          "MMLCV"
+        ]
+      },
+      "incompatible": [
+        "ENGN6528",
+        "COMP4528",
+        "ENGN4528"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying one of:\nGraduate Diploma of Computing\nMaster of Computing\nMaster of Computing (Advanced).\nMaster of Machine Learning and Computer Vision\nIncompatible with ENGN6528 and COMP4528 and ENGN4528.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6540",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6540",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must have completed COMP6710 or COMP1110 or COMP1140."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6710 or COMP1110 or COMP1140.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6670",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6670",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must have:\ncompleted or be currently enrolled in COMP6710 OR COMP6730 OR\nhave completed COMP1110 or COMP1140.\nIncompatible with COMP3670."
+      },
+      "incompatible": [
+        "COMP3670"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have:\ncompleted or be currently enrolled in COMP6710 OR COMP6730 OR\nhave completed COMP1110 or COMP1140.\nIncompatible with COMP3670.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6710",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6710",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "You are not able to enrol in this course if you have previously completed COMP1110 OR COMP1140 OR if you are enrolled in the Master of Computing (Advanced)."
+      },
+      "incompatible": [
+        "COMP1110",
+        "COMP1140"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you have previously completed COMP1110 OR COMP1140 OR if you are enrolled in the Master of Computing (Advanced).",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6720",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6720",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP1720"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible with COMP1720",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6780",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP6780",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires enrolment in an ANU postgraduate program."
+      },
+      "incompatible": [
+        "COMP1710"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible with COMP1710\nTo enroll in this course students must be enrolled in a postgraduate program at ANU.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP7710",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP7710",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [
+        "COMP1110",
+        "COMP1140",
+        "COMP6710"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8011",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8011",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires 12 units of 6000-level COMP plus topic-specific prerequisites and a permission code."
+      },
+      "incompatible": [],
+      "repeatLimit": 3,
+      "requisiteText": "To enrol in this course you must have successfully completed 12 units of 6000-level COMP courses.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions Enrolling in CECC courses. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8020",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8020",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8045",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8045",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires 12 units of 6000-level COMP plus topic-specific prerequisites and a permission code."
+      },
+      "incompatible": [],
+      "repeatLimit": 3,
+      "requisiteText": "To enrol in this course you must have successfully completed 12 units of 6000-level COMP coded courses.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions on Enrolling in CSS courses. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8260",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8260",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "6906XGDCP",
+          "MMLCV"
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in the Graduate Diploma of Computing or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8280",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8280",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8300",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8300",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6310",
+          "COMP2310",
+          "COMP6330",
+          "COMP3300",
+          "COMP6331",
+          "COMP3310",
+          "COMP6464",
+          "ENGN6539"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4300"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed:\nCOMP6310/2310 OR COMP6330/3300 OR COMP6331/3310 OR COMP6464 OR ENGN6539\nIncompatible with COMP4300.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8350",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8350",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6390",
+          "COMP6720"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4350"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed either COMP6390 or COMP6720.\nIncompatible with COMP4350.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8405",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8405",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8410",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8410",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP7240",
+              "COMP6240",
+              "COMP2400"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6730",
+              "COMP7230",
+              "COMP6710"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3420",
+        "COMP3425",
+        "COMP8400",
+        "COMP8910"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed\n COMP7240 or COMP6240 or COMP2400; and\n COMP6730 or COMP7230 or COMP6710.\nIncompatible with COMP3420 and COMP3425 and COMP8400 and COMP8910.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8430",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8430",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP7230",
+              "COMP6730",
+              "COMP6710"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP7240",
+              "COMP6240"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "unknown",
+            "reason": "Intensive-mode offerings require a permission code; confirm your class mode."
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3430"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed either COMP7230, COMP6730 or COMP6710; AND COMP7240 or COMP6240.\nIncompatible with COMP3430.\nA permission code is needed to take this course in intensive mode.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8460",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8460",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6466",
+          "COMP3600"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4600"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course, you must have completed COMP6466 or COMP3600.\nIncompatible with COMP4600.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8539",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8539",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6528",
+          "COMP4528",
+          "ENGN4528"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "ENGN8501"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed:\nCOMP6528 or COMP4528 or ENGN4528.\nYou are not able to enrol in this course if you have previously completed ENGN8501.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8600",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8600",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6670",
+              "COMP3670"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP6730",
+                  "COMP7230",
+                  "COMP1110",
+                  "COMP1730"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP8410",
+                  "COMP8910",
+                  "COMP3425"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "STAT6039",
+                  "STAT7039"
+                ],
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4670",
+        "COMP8960"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed\nCOMP6670 or COMP3670\nOR\n(COMP6710 or COMP6730 or COMP7230 or COMP1110 or COMP1730) and (COMP8410 or COMP8910 or COMP3425) and (STAT6039 or STAT7039)\nIncompatible with COMP4670 and COMP8960.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8610",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8610",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "program",
+                "codes": [
+                  "MMLCV"
+                ]
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP1110",
+                  "COMP1140"
+                ],
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP1110",
+                  "COMP1140"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6390",
+                  "COMP6442",
+                  "COMP6540",
+                  "COMP6780",
+                  "COMP6720"
+                ],
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4610",
+        "COMP6461"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying VCOMP\nOR \nbe studying MMLCV and have completed COMP6710 or COMP1110 or COMP1140\nOR\nhave completed (COMP6710 or COMP1110 or COMP1140) and have completed (COMP6390 or COMP6442 or COMP6540 or COMP6780 or COMP6720).\nYou are not able to enrol in this course if you have successfully completed COMP4610 or COMP6461.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8620",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8620",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must have completed COMP6320 or COMP3620.\nIncompatible with COMP4620."
+      },
+      "incompatible": [
+        "COMP4620"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6320 or COMP3620.\nIncompatible with COMP4620.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8650",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8650",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6670",
+              "COMP8600"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "unknown",
+            "reason": "Check additional topic-specific prerequisites."
+          }
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6670 Introduction to Machine Learning or COMP8600 Statistical Machine Learning.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page ) when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CECC courses.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8691",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8691",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6320",
+          "COMP3620"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4690"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6320 or COMP3620.\nIncompatible with COMP4690.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8712",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8712",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must have complete COMP6710 AND COMP6442 AND COMP6310.\nStudents who have previously completed COMP3710 or COMP6470 - please contact CECC Student Services for a Permission Code."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have complete COMP6710 AND COMP6442 AND COMP6310.\nStudents who have previously completed COMP3710 or COMP6470 - please contact CECC Student Services for a Permission Code.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8715",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8715",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener.\nTo enrol in this course you must:\nbe enrolled in the Master of Computing AND \nhave successfully completed:\nCOMP6442 or COMP2100 AND\nCOMP8260\nOR\nbe enrolled in the Master of Machine Learning and Computer Vision AND \nhave successfully completed:\nCOMP6710 or COMP6730 or COMP1110 AND\nCOMP6250 or COMP8260 or ENGN6250 or ENGN8260\nIncompatible with COMP8755 and COMP8830 and COMP8800"
+      },
+      "incompatible": [
+        "COMP8755",
+        "COMP8830",
+        "COMP8800"
+      ],
+      "repeatLimit": 2,
+      "requisiteText": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener.\nTo enrol in this course you must:\nbe enrolled in the Master of Computing AND \nhave successfully completed:\nCOMP6442 or COMP2100 AND\nCOMP8260\nOR\nbe enrolled in the Master of Machine Learning and Computer Vision AND \nhave successfully completed:\nCOMP6710 or COMP6730 or COMP1110 AND\nCOMP6250 or COMP8260 or ENGN6250 or ENGN8260\nIncompatible with COMP8755 and COMP8830 and COMP8800",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8800",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8800",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must:\nbe enrolled in the Master of Computing (Advanced) AND\nhave successfully completed\nCOMP6445 AND\nCOMP6442 AND\n(COMP6250 OR COMP8260) AND\nhave a GPA equivalent to an ANU 70 per cent calculated AND\nreceive a permission code by completing the steps listed on Enrolling in student projects and having submitted the Student Project Registration Form\nOR\nbe enrolled in the Master of Machine and Computer Learning AND\nhave completed\n(COMP6710 OR COMP6730) AND\n(COMP6250 OR COMP8260) AND\nhave a GPA equivalent to an ANU 70 per cent calculated AND\nhave completed OR be currently enrolled in COMP6445 AND\nreceive a permission code by completing the steps listed on Enrolling in student projects and having submitted the Student Project Registration Form\nIncompatible with COMP8715. \nYou will need to contact the School of Computing to request a permission code to enrol in this course."
+      },
+      "incompatible": [
+        "COMP8715"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe enrolled in the Master of Computing (Advanced) AND\nhave successfully completed\nCOMP6445 AND\nCOMP6442 AND\n(COMP6250 OR COMP8260) AND\nhave a GPA equivalent to an ANU 70 per cent calculated AND\nreceive a permission code by completing the steps listed on Enrolling in student projects and having submitted the Student Project Registration Form\nOR\nbe enrolled in the Master of Machine and Computer Learning AND\nhave completed\n(COMP6710 OR COMP6730) AND\n(COMP6250 OR COMP8260) AND\nhave a GPA equivalent to an ANU 70 per cent calculated AND\nhave completed OR be currently enrolled in COMP6445 AND\nreceive a permission code by completing the steps listed on Enrolling in student projects and having submitted the Student Project Registration Form\nIncompatible with COMP8715. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8830",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8830",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must\n - be enrolled in the Master of Computing AND have successfully completed COMP8260 and COMP6442, OR\n - be enrolled in the Master of Machine Learning and Computer Vision AND have successfully completed:\n COMP6710 OR COMP6730, AND\n COMP6250 OR COMP8260 OR ENGN6250 OR ENGN8260.\nIncompatible with COMP8715 and COMP8755.\nYou will need to undergo competitive entry to enrol in this course, please see CECS webpage for more information. \nYou will need to contact the School of Computing to request a permission code to enrol in this course."
+      },
+      "incompatible": [
+        "COMP8715",
+        "COMP8755"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must\n - be enrolled in the Master of Computing AND have successfully completed COMP8260 and COMP6442, OR\n - be enrolled in the Master of Machine Learning and Computer Vision AND have successfully completed:\n COMP6710 OR COMP6730, AND\n COMP6250 OR COMP8260 OR ENGN6250 OR ENGN8260.\nIncompatible with COMP8715 and COMP8755.\nYou will need to undergo competitive entry to enrol in this course, please see CECS webpage for more information. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8880",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/COMP8880",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6670"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP6730",
+                  "COMP7230"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP8410",
+                  "COMP8910"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "STAT6039"
+                ],
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4880",
+        "COMP8980"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed\n COMP6670; OR\n (6 units of either COMP6710 or COMP6730 or COMP7230) and (either COMP8410 or COMP8910) and STAT6039.\nIncompatible with COMP4880 and COMP8980.",
+      "reviewed": true
+    },
+    {
+      "code": "ENGN6213",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/ENGN6213",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "MENG"
+        ]
+      },
+      "incompatible": [
+        "ENGN4213"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying Master of Engineering or Master of Computing or Master of Computing (Advanced). Incompatible with ENGN4213.",
+      "reviewed": true
+    },
+    {
+      "code": "ENGN8100",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/ENGN8100",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must be studying Master of Engineering, Master of Project Management, Master of Business Information Systems or Graduate Certificate in Nuclear Technology and Regulation."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying Master of Engineering, Master of Project Management, Master of Business Information Systems or Graduate Certificate in Nuclear Technology and Regulation.",
+      "reviewed": false
+    },
+    {
+      "code": "INFS8004",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/INFS8004",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "INFS4004"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible with INFS4004",
+      "reviewed": true
+    },
+    {
+      "code": "INFS8205",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/INFS8205",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you previously completed INFS3024 or INFS4205.",
+      "reviewed": true
+    },
+    {
+      "code": "LAWS8445",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/LAWS8445",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must be studying a;\nMaster of Laws (MLLM) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of Law (CLAW) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of New Technologies Law; or\nJuris Doctor (MJD) and have completed or be completing five 6100 level LAWS courses; or\nMaster of Financial Management and Law (MFIML) and have completed or be completing LAWS8586 Law and Legal Institutions.\nYou are not able to enrol in this course if you have previously completed LAWS4245 Information Technology Law.\nStudents undertaking any ANU graduate program may apply for this course. Enrolments are accepted on a case-by-case basis. Please contact the ANU College of Law for appropriate permission."
+      },
+      "incompatible": [
+        "LAWS4245"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying a;\nMaster of Laws (MLLM) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of Law (CLAW) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of New Technologies Law; or\nJuris Doctor (MJD) and have completed or be completing five 6100 level LAWS courses; or\nMaster of Financial Management and Law (MFIML) and have completed or be completing LAWS8586 Law and Legal Institutions.\nYou are not able to enrol in this course if you have previously completed LAWS4245 Information Technology Law.\nStudents undertaking any ANU graduate program may apply for this course. Enrolments are accepted on a case-by-case basis. Please contact the ANU College of Law for appropriate permission.",
+      "reviewed": false
+    },
+    {
+      "code": "MATH6005",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/MATH6005",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "6906XGDCP"
+        ]
+      },
+      "incompatible": [
+        "MATH1005"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "CECS students must be enrolled in a Graduate Diploma of Computing or a Master of Computing to enrol in this course.\nIncompatible: MATH1005",
+      "reviewed": true
+    },
+    {
+      "code": "MATH6114",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/MATH6114",
+      "prerequisite": {
+        "op": "permission",
+        "reason": "A Mathematical Sciences Institute permission code is required."
+      },
+      "incompatible": [
+        "MATH3301"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible: MATH3301. \nYou will need to contact the Mathematical Sciences Institute to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "MATH8343",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/MATH8343",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires an eligible Mathematical Sciences program or an explicit enrolment approval."
+      },
+      "incompatible": [
+        "MATH3343",
+        "MATH4343",
+        "MATH6203"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you need to be active in the Master of Mathematical Sciences (Advanced) or Master of Science in Mathematical Sciences.\nIncompatible with MATH3343, MATH4343 and MATH6203.",
+      "reviewed": true
+    },
+    {
+      "code": "MGMT7020",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/MGMT7020",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "REGN8014",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/REGN8014",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "STAT6039",
+      "year": 2025,
+      "source": "https://programsandcourses.anu.edu.au/2025/course/STAT6039",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6120",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6120",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6442",
+          "COMP2100"
+        ],
+        "concurrent": true
+      },
+      "incompatible": [
+        "COMP2120"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have successfully completed or be currently studying COMP6442 or COMP2100.\nIncompatible with COMP2120.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6240",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6240",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP2400",
+        "COMP7240"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you have successfully completed COMP2400. Incompatible with COMP7240.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6250",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6250",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "6906XGDCP",
+          "MMLCV"
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in Graduate Diploma of Computing or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6260",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6260",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP1600"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible with COMP1600",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6261",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6261",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP2610",
+        "ENGN8534"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You cannot enrol in this course if you have completed COMP2610 or ENGN8534.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6262",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6262",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "PHIL2080",
+        "COMP2620"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you have previously completed PHIL2080 or COMP2620.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6300",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6300",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7706XMCOMP",
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP7710",
+              "COMP1110"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP2300",
+        "ENGN2219",
+        "COMP6719"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be:\nstudying a Master of Computing OR Master of Computing (Advanced)\nOR \nhave completed\nCOMP6710 OR COMP7710 OR COMP1110.\nIncompatible with COMP2300, ENGN2219 and COMP6719.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6310",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6310",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6300"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP7710",
+              "COMP1110"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP2310"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed:\nCOMP6300 AND (COMP6710 or COMP7710 or COMP1110)\nIncompatible with COMP2310.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6320",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6320",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "or",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP7710",
+                  "COMP1110"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "program",
+                "codes": [
+                  "7722XVCOMP"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6262",
+              "COMP2620"
+            ],
+            "concurrent": true
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3620"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed\n(COMP6710 OR COMP7710 OR COMP1110 OR be enrolled in Master of Computing (Advanced))\nAND\nhave completed or be currently enrolled in COMP6262 OR COMP2620\nIncompatible with COMP3620.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6330",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6330",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6300"
+            ],
+            "concurrent": true
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP2300",
+              "ENGN2219"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3300"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be:\nstudying a Master of Computing (Advanced) \nOR \nbe enrolled in or have completed COMP6300 or\nhave completed COMP2300 or ENGN2219.\nIncompatible with COMP3300.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6331",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6331",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6710",
+          "COMP7710",
+          "COMP1110",
+          "COMP1140",
+          "COMP6310",
+          "COMP2310",
+          "COMP6442",
+          "COMP2100"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP3310",
+        "ENGN3539",
+        "ENGN6539"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed:\n(COMP6710 OR COMP7710 OR COMP1110 OR COMP1140) OR\n(COMP6310 OR COMP2310) OR\n(COMP6442 OR COMP2100).\nIncompatible with COMP3310, ENGN3539, ENGN6539.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6361",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6361",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6260"
+                ],
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          }
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": ".To enrol in this course you must have successfully completed COMP6710 and COMP6260; or be enrolled in Master of Computing (Advanced)",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6363",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6363",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP"
+        ]
+      },
+      "incompatible": [
+        "COMP3630"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying Master of Computing OR Master of Computing (Advanced).\nIncompatible with COMP3630.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6390",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6390",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7706XMCOMP",
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6442",
+              "COMP6710",
+              "COMP6720"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3900"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying Master of Computing OR Master of Computing Advanced \nOR\nhave completed 6 units of (COMP6442 OR COMP6710 OR COMP6720). \nIncompatible with COMP3900.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6442",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6442",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP7710",
+                  "COMP1110",
+                  "COMP1140"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "MATH6005",
+                  "COMP6260",
+                  "MATH1005",
+                  "COMP1600"
+                ],
+                "concurrent": true
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "program",
+                "codes": [
+                  "MMLCV"
+                ]
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP7710",
+                  "COMP1110",
+                  "COMP1140"
+                ],
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP2100"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have either:\ncompleted (COMP6710 OR COMP7710 OR COMP1110 OR COMP1140); AND\nhave completed or be currently enrolled in (MATH6005 OR COMP6260 OR MATH1005 OR COMP1600);\nOR\nbe enrolled in the Master of Machine Learning and Computer Vision AND have completed (COMP6710 or COMP7710 or COMP1110 or COMP1140)\nOR\nbe enrolled in the Master of Computing (Advanced).\nIncompatible with COMP2100.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6464",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6464",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7706XMCOMP",
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP7710",
+              "COMP1110",
+              "COMP1140"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3320"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying Master of Computing or Master of Computing (Advanced) OR\nhave successfully completed (COMP6710 or COMP7710 or COMP1110 or COMP1140).\nIncompatible with COMP3320.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6466",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6466",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7706XMCOMP",
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP7710",
+              "COMP1110",
+              "COMP1140"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3600"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying Master of Computing or Master of Computing Advanced\nor have successfully completed (COMP6710 or COMP7710 or COMP1110 or COMP1140).\nIncompatible with COMP3600.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6490",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6490",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6240",
+                  "COMP2400",
+                  "COMP6260",
+                  "COMP1600",
+                  "COMP6442",
+                  "COMP2100"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6730",
+                  "COMP1730",
+                  "COMP6710",
+                  "COMP1110"
+                ],
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4650",
+        "COMP6990"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in\nVCOMP\n OR \nhave completed 6 units of: (COMP6240/2400 OR COMP6260/1600 OR COMP6442/2100)\nAND\nhave completed 6 units of: (COMP6730/1730 OR COMP6710/1110).\nIncompatible with COMP4650 and COMP6990.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6528",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6528",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "6906XGDCP",
+          "MMLCV"
+        ]
+      },
+      "incompatible": [
+        "ENGN6528",
+        "COMP4528",
+        "ENGN4528"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying one of:\nGraduate Diploma of Computing\nMaster of Computing\nMaster of Computing (Advanced).\nMaster of Machine Learning and Computer Vision\nIncompatible with ENGN6528 and COMP4528 and ENGN4528.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6540",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6540",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP1110",
+              "COMP1140"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in Master of Computing Advanced OR have completed (COMP6710 or COMP1110 or COMP1140).",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6670",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6670",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP7710",
+              "COMP6730"
+            ],
+            "concurrent": true
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP1110",
+              "COMP1140"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3670"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe enrolled in Master of Computing (Advanced) OR \nhave completed or be currently enrolled in (COMP6710 or COMP7710 or COMP6730) OR\nhave completed COMP1110 or COMP1140.\nIncompatible with COMP3670.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6710",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6710",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Enrolment excludes Master of Computing (Advanced); verify the program restriction."
+      },
+      "incompatible": [
+        "COMP1110",
+        "COMP1140",
+        "COMP7710"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you are enrolled in the Master of Computing (Advanced).\nIncompatible with COMP1110 OR COMP1140 OR COMP7710.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6720",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6720",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP1720"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible with COMP1720",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6780",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP6780",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires enrolment in an ANU postgraduate program."
+      },
+      "incompatible": [
+        "COMP1710"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible with COMP1710\nTo enroll in this course students must be enrolled in a postgraduate program at ANU.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP7710",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP7710",
+      "prerequisite": {
+        "op": "permission",
+        "reason": "A School of Computing permission code is required."
+      },
+      "incompatible": [
+        "COMP1110",
+        "COMP1140",
+        "COMP6710"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you have previously completed or are currently enrolled in COMP1110 OR COMP1140 OR COMP6710 \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8011",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8011",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires 12 units of 6000-level COMP plus topic-specific prerequisites and a permission code."
+      },
+      "incompatible": [],
+      "repeatLimit": 3,
+      "requisiteText": "To enrol in this course you must have successfully completed 12 units of 6000-level COMP courses.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions Enrolling in CECC courses. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8020",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8020",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6390"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "unknown",
+            "reason": "Topic-specific prerequisites and a School permission code require confirmation."
+          }
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 3,
+      "requisiteText": "To enrol in this course, you must have completed COMP6390.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the prerequisites can request a permission code from the College. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8045",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8045",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires 12 units of 6000-level COMP plus topic-specific prerequisites and a permission code."
+      },
+      "incompatible": [],
+      "repeatLimit": 3,
+      "requisiteText": "To enrol in this course you must have successfully completed 12 units of 6000-level COMP coded courses.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions on Enrolling in CSS courses. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8260",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8260",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "6906XGDCP",
+          "MMLCV"
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in the Graduate Diploma of Computing or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8280",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8280",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "6906XGDCP",
+          "MMLCV"
+        ]
+      },
+      "incompatible": [
+        "COMP8260",
+        "ENGN8260",
+        "ENGN8280"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in the Graduate Diploma of Computing or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.\nIncompatible with COMP8260, ENGN8260 and ENGN8280.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8300",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8300",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6310",
+          "COMP2310",
+          "COMP6330",
+          "COMP3300",
+          "COMP6331",
+          "COMP3310",
+          "COMP6464",
+          "ENGN6539"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4300"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed:\nCOMP6310/2310 OR COMP6330/3300 OR COMP6331/3310 OR COMP6464 OR ENGN6539\nIncompatible with COMP4300.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8350",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8350",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6390",
+          "COMP6720"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4350"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed either COMP6390 or COMP6720.\nIncompatible with COMP4350.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8405",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8405",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8410",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8410",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP7240",
+              "COMP6240",
+              "COMP2400"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6730",
+              "COMP7230",
+              "COMP6710"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3420",
+        "COMP3425",
+        "COMP8400",
+        "COMP8910"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed\n COMP7240 or COMP6240 or COMP2400; and\n COMP6730 or COMP7230 or COMP6710.\nIncompatible with COMP3420 and COMP3425 and COMP8400 and COMP8910.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8430",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8430",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP7230",
+              "COMP6730",
+              "COMP6710"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP7240",
+              "COMP6240"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "unknown",
+            "reason": "Intensive-mode offerings require a permission code; confirm your class mode."
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3430"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed either COMP7230, COMP6730 or COMP6710; AND COMP7240 or COMP6240.\nIncompatible with COMP3430.\nA permission code is needed to take this course in intensive mode.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8460",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8460",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6466",
+          "COMP3600"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4600"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course, you must have completed COMP6466 or COMP3600.\nIncompatible with COMP4600.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8539",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8539",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6528",
+          "COMP4528",
+          "ENGN4528"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "ENGN8501"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed:\nCOMP6528 or COMP4528 or ENGN4528.\nYou are not able to enrol in this course if you have previously completed ENGN8501.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8600",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8600",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6670",
+              "COMP3670"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP6730",
+                  "COMP7230",
+                  "COMP1110",
+                  "COMP1730"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP8410",
+                  "COMP8910",
+                  "COMP3425"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "STAT6039",
+                  "STAT7039"
+                ],
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4670",
+        "COMP8960"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed\nCOMP6670 or COMP3670\nOR\n(COMP6710 or COMP6730 or COMP7230 or COMP1110 or COMP1730) and (COMP8410 or COMP8910 or COMP3425) and (STAT6039 or STAT7039)\nIncompatible with COMP4670 and COMP8960.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8610",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8610",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "program",
+                "codes": [
+                  "MMLCV"
+                ]
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP1110",
+                  "COMP1140"
+                ],
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP1110",
+                  "COMP1140"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6390",
+                  "COMP6442",
+                  "COMP6540",
+                  "COMP6780",
+                  "COMP6720"
+                ],
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4610",
+        "COMP6461"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying VCOMP\nOR \nbe studying MMLCV and have completed COMP6710 or COMP1110 or COMP1140\nOR\nhave completed (COMP6710 or COMP1110 or COMP1140) and have completed (COMP6390 or COMP6442 or COMP6540 or COMP6780 or COMP6720).\nYou are not able to enrol in this course if you have successfully completed COMP4610 or COMP6461.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8620",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8620",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6320",
+              "COMP3620"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "unknown",
+            "reason": "Topic-specific prerequisites and a permission code require confirmation."
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4620"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6320 or COMP3620.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page ) when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CSS courses .\nIncompatible with COMP4620. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8650",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8650",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6670",
+              "COMP8600"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "unknown",
+            "reason": "Check additional topic-specific prerequisites."
+          }
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6670 Introduction to Machine Learning or COMP8600 Statistical Machine Learning.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page ) when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CECC courses.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8691",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8691",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6320",
+          "COMP3620"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4690"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6320 or COMP3620.\nIncompatible with COMP4690.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8712",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8712",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6442"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6310"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6442 AND COMP6310.\nStudents who have previously completed COMP3710 or COMP6470 - please contact CSS Student Services for a Permission Code.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8715",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8715",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "program",
+                "codes": [
+                  "7706XMCOMP"
+                ]
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6442",
+                  "COMP2100"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP8260",
+                  "COMP8280"
+                ],
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "program",
+                "codes": [
+                  "MMLCV"
+                ]
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6442",
+                  "COMP2100"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6250",
+                  "COMP8260",
+                  "COMP8280"
+                ],
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP8755",
+        "COMP8830",
+        "COMP8800"
+      ],
+      "repeatLimit": 2,
+      "requisiteText": "To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener.\nTo enrol in this course you must:\nbe enrolled in the Master of Computing AND \nhave successfully completed:\nCOMP6442 or COMP2100 AND\n(COMP8260 or COMP8280)\nOR\nbe enrolled in the Master of Machine Learning and Computer Vision AND \nhave successfully completed:\n(COMP6442 or COMP2100) AND\n(COMP6250 or COMP8260 or COMP8280)\nIncompatible with COMP8755 and COMP8830 and COMP8800",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8800",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8800",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Research project requires program, GPA, completed-study and supervisor/permission checks."
+      },
+      "incompatible": [
+        "COMP8715",
+        "COMP8830"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe enrolled in the Master of Computing (Advanced) OR Master of Machine Learning and Computer Vision AND\nhave completed or be currently enrolled in COMP6445 AND\nhave completed (COMP8280 or COMP8260 or COMP6250) AND\nhave completed 36 units of COMP courses AND\nhave a GPA of 6 out of 7 AND\nreceive a permission code by completing the steps listed on Enrolling in student projects and having submitted the Student Project Registration Form.\nIncompatible with COMP8715 and COMP8830. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8830",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8830",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "or",
+            "children": [
+              {
+                "op": "and",
+                "children": [
+                  {
+                    "op": "program",
+                    "codes": [
+                      "7706XMCOMP"
+                    ]
+                  },
+                  {
+                    "op": "course",
+                    "codes": [
+                      "COMP8260"
+                    ],
+                    "concurrent": false
+                  },
+                  {
+                    "op": "course",
+                    "codes": [
+                      "COMP6442"
+                    ],
+                    "concurrent": false
+                  }
+                ]
+              },
+              {
+                "op": "and",
+                "children": [
+                  {
+                    "op": "program",
+                    "codes": [
+                      "MMLCV"
+                    ]
+                  },
+                  {
+                    "op": "course",
+                    "codes": [
+                      "COMP6710"
+                    ],
+                    "concurrent": false
+                  },
+                  {
+                    "op": "course",
+                    "codes": [
+                      "COMP6250",
+                      "COMP8260"
+                    ],
+                    "concurrent": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "op": "unknown",
+            "reason": "Competitive internship entry and a permission code must be confirmed."
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP8715",
+        "COMP8755",
+        "COMP8800"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nBe enrolled in the Master of Computing (MCOMP)\nand have successfully completed:\nCOMP8260 and COMP6442\nOR\nBe enrolled in the Master of Machine Learning and Computer Vision (MMLCV)\nand have successfully completed:\nCOMP6710 and (COMP6250 OR COMP8260 )\nIncompatible with COMP8715 and COMP8755 and COMP8800.\nYou will need to undergo competitive entry to enrol in this course. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8880",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/COMP8880",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6670"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP6730",
+                  "COMP7230"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP8410",
+                  "COMP8910"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "STAT6039"
+                ],
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4880",
+        "COMP8980"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed\n COMP6670; OR\n (6 units of either COMP6710 or COMP6730 or COMP7230) and (either COMP8410 or COMP8910) and STAT6039.\nIncompatible with COMP4880 and COMP8980.",
+      "reviewed": true
+    },
+    {
+      "code": "ENGN6213",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/ENGN6213",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "MENG"
+        ]
+      },
+      "incompatible": [
+        "ENGN4213"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying Master of Engineering or Master of Computing or Master of Computing (Advanced). Incompatible with ENGN4213.",
+      "reviewed": true
+    },
+    {
+      "code": "ENGN8100",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/ENGN8100",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "MENG",
+          "MPM",
+          "MBIS",
+          "GCNT"
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying Master of Engineering, Master of Computing, Master of Computing (Advanced), Master of Project Management, Master of Business Information Systems or Graduate Certificate in Nuclear Technology and Regulation.",
+      "reviewed": true
+    },
+    {
+      "code": "INFS8004",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/INFS8004",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "INFS4004"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible with INFS4004",
+      "reviewed": true
+    },
+    {
+      "code": "INFS8205",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/INFS8205",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you previously completed INFS3024 or INFS4205.",
+      "reviewed": true
+    },
+    {
+      "code": "LAWS8445",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/LAWS8445",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must be studying a;\nMaster of Laws (MLLM) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of Law (CLAW) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of New Technologies Law; or\nJuris Doctor (MJD) and have completed or be completing five 6100 level LAWS courses; or\nMaster of Financial Management and Law (MFIML) and have completed or be completing LAWS8586 Law and Legal Institutions.\nYou are not able to enrol in this course if you have previously completed LAWS4245 Information Technology Law.\nStudents undertaking any ANU graduate program may apply for this course. Enrolments are accepted on a case-by-case basis. Please contact the ANU College of Law for appropriate permission."
+      },
+      "incompatible": [
+        "LAWS4245"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying a;\nMaster of Laws (MLLM) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of Law (CLAW) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of New Technologies Law; or\nJuris Doctor (MJD) and have completed or be completing five 6100 level LAWS courses; or\nMaster of Financial Management and Law (MFIML) and have completed or be completing LAWS8586 Law and Legal Institutions.\nYou are not able to enrol in this course if you have previously completed LAWS4245 Information Technology Law.\nStudents undertaking any ANU graduate program may apply for this course. Enrolments are accepted on a case-by-case basis. Please contact the ANU College of Law for appropriate permission.",
+      "reviewed": false
+    },
+    {
+      "code": "MATH6005",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/MATH6005",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "6906XGDCP"
+        ]
+      },
+      "incompatible": [
+        "MATH1005"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "CECS students must be enrolled in a Graduate Diploma of Computing or a Master of Computing to enrol in this course.\nIncompatible: MATH1005",
+      "reviewed": true
+    },
+    {
+      "code": "MATH6114",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/MATH6114",
+      "prerequisite": {
+        "op": "permission",
+        "reason": "A Mathematical Sciences Institute permission code is required."
+      },
+      "incompatible": [
+        "MATH3301"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible: MATH3301. \nYou will need to contact the Mathematical Sciences Institute to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "MATH8343",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/MATH8343",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires an eligible Mathematical Sciences program or an explicit enrolment approval."
+      },
+      "incompatible": [
+        "MATH3343",
+        "MATH4343",
+        "MATH6203"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you need to be active in the Master of Mathematical Sciences (Advanced) or Master of Science in Mathematical Sciences.\nIncompatible with MATH3343, MATH4343 and MATH6203.",
+      "reviewed": true
+    },
+    {
+      "code": "MGMT7020",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/MGMT7020",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "REGN8014",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/REGN8014",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "STAT6039",
+      "year": 2026,
+      "source": "https://programsandcourses.anu.edu.au/2026/course/STAT6039",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6120",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6120",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6442",
+          "COMP2100"
+        ],
+        "concurrent": true
+      },
+      "incompatible": [
+        "COMP2120"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have successfully completed or be currently studying COMP6442 or COMP2100.\nIncompatible with COMP2120.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6240",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6240",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP2400",
+        "COMP7240"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you have successfully completed COMP2400. Incompatible with COMP7240.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6250",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6250",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "6906XGDCP",
+          "MMLCV"
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in Graduate Diploma of Computing or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6260",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6260",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP1600"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible with COMP1600",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6261",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6261",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP2610",
+        "ENGN8534"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You cannot enrol in this course if you have completed COMP2610 or ENGN8534.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6262",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6262",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "PHIL2080",
+        "COMP2620"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you have previously completed PHIL2080 or COMP2620.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6300",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6300",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7706XMCOMP",
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP7710",
+              "COMP1110"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP2300",
+        "ENGN2219",
+        "COMP6719"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be:\nstudying a Master of Computing OR Master of Computing (Advanced)\nOR \nhave completed\nCOMP6710 OR COMP7710 OR COMP1110.\nIncompatible with COMP2300, ENGN2219 and COMP6719.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6310",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6310",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6300"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP7710",
+              "COMP1110"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP2310"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed:\nCOMP6300 AND (COMP6710 or COMP7710 or COMP1110)\nIncompatible with COMP2310.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6320",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6320",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "or",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP7710",
+                  "COMP1110"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "program",
+                "codes": [
+                  "7722XVCOMP"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6262",
+              "COMP2620"
+            ],
+            "concurrent": true
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3620"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed\n(COMP6710 OR COMP7710 OR COMP1110 OR be enrolled in Master of Computing (Advanced))\nAND\nhave completed or be currently enrolled in COMP6262 OR COMP2620\nIncompatible with COMP3620.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6330",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6330",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6300"
+            ],
+            "concurrent": true
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP2300",
+              "ENGN2219"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3300"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be:\nstudying a Master of Computing (Advanced) \nOR \nbe enrolled in or have completed COMP6300 or\nhave completed COMP2300 or ENGN2219.\nIncompatible with COMP3300.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6331",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6331",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6710",
+          "COMP7710",
+          "COMP1110",
+          "COMP1140",
+          "COMP6310",
+          "COMP2310",
+          "COMP6442",
+          "COMP2100"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP3310",
+        "ENGN3539",
+        "ENGN6539"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed:\n(COMP6710 OR COMP7710 OR COMP1110 OR COMP1140) OR\n(COMP6310 OR COMP2310) OR\n(COMP6442 OR COMP2100).\nIncompatible with COMP3310, ENGN3539, ENGN6539.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6361",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6361",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must have successfully completed COMP6442 and COMP6260; or be enrolled in Master of Computing (Advanced)"
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have successfully completed COMP6442 and COMP6260; or be enrolled in Master of Computing (Advanced)",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6363",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6363",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP"
+        ]
+      },
+      "incompatible": [
+        "COMP3630"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying Master of Computing OR Master of Computing (Advanced).\nIncompatible with COMP3630.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6390",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6390",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must:\nbe studying Master of Computing OR Master of Computing Advanced \nOR\nhave completed 6 units of (COMP6442 OR COMP6710 OR COMP6720 OR COMP6730 OR COMP7710). \nIncompatible with COMP3900."
+      },
+      "incompatible": [
+        "COMP3900"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying Master of Computing OR Master of Computing Advanced \nOR\nhave completed 6 units of (COMP6442 OR COMP6710 OR COMP6720 OR COMP6730 OR COMP7710). \nIncompatible with COMP3900.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6442",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6442",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP7710",
+                  "COMP1110",
+                  "COMP1140"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "MATH6005",
+                  "COMP6260",
+                  "MATH1005",
+                  "COMP1600"
+                ],
+                "concurrent": true
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "program",
+                "codes": [
+                  "MMLCV"
+                ]
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP7710",
+                  "COMP1110",
+                  "COMP1140"
+                ],
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP2100"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have either:\ncompleted (COMP6710 OR COMP7710 OR COMP1110 OR COMP1140); AND\nhave completed or be currently enrolled in (MATH6005 OR COMP6260 OR MATH1005 OR COMP1600);\nOR\nbe enrolled in the Master of Machine Learning and Computer Vision AND have completed (COMP6710 or COMP7710 or COMP1110 or COMP1140)\nOR\nbe enrolled in the Master of Computing (Advanced).\nIncompatible with COMP2100.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6464",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6464",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7706XMCOMP",
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP7710",
+              "COMP1110",
+              "COMP1140"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3320"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying Master of Computing or Master of Computing (Advanced) OR\nhave successfully completed (COMP6710 or COMP7710 or COMP1110 or COMP1140).\nIncompatible with COMP3320.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6466",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6466",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7706XMCOMP",
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP7710",
+              "COMP1110",
+              "COMP1140"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3600"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying Master of Computing or Master of Computing Advanced\nor have successfully completed (COMP6710 or COMP7710 or COMP1110 or COMP1140).\nIncompatible with COMP3600.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6490",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6490",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6240",
+                  "COMP2400",
+                  "COMP6260",
+                  "COMP1600",
+                  "COMP6442",
+                  "COMP2100"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6730",
+                  "COMP1730",
+                  "COMP6710",
+                  "COMP1110"
+                ],
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4650",
+        "COMP6990"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in\nVCOMP\n OR \nhave completed 6 units of: (COMP6240/2400 OR COMP6260/1600 OR COMP6442/2100)\nAND\nhave completed 6 units of: (COMP6730/1730 OR COMP6710/1110).\nIncompatible with COMP4650 and COMP6990.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6528",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6528",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "6906XGDCP",
+          "MMLCV"
+        ]
+      },
+      "incompatible": [
+        "ENGN6528",
+        "COMP4528",
+        "ENGN4528"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying one of:\nGraduate Diploma of Computing\nMaster of Computing\nMaster of Computing (Advanced).\nMaster of Machine Learning and Computer Vision\nIncompatible with ENGN6528 and COMP4528 and ENGN4528.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6540",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6540",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must:\nbe enrolled in Master of Computing Advanced OR\nhave completed (COMP6710 or COMP7710 or COMP1110 or COMP1140)."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe enrolled in Master of Computing Advanced OR\nhave completed (COMP6710 or COMP7710 or COMP1110 or COMP1140).",
+      "reviewed": false
+    },
+    {
+      "code": "COMP6670",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6670",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6710",
+              "COMP7710",
+              "COMP6730"
+            ],
+            "concurrent": true
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP1110",
+              "COMP1140"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3670"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe enrolled in Master of Computing (Advanced) OR \nhave completed or be currently enrolled in (COMP6710 or COMP7710 or COMP6730) OR\nhave completed COMP1110 or COMP1140.\nIncompatible with COMP3670.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6710",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6710",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Enrolment excludes Master of Computing (Advanced); verify the program restriction."
+      },
+      "incompatible": [
+        "COMP1110",
+        "COMP1140",
+        "COMP7710"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you are enrolled in the Master of Computing (Advanced).\nIncompatible with COMP1110 OR COMP1140 OR COMP7710.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6720",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6720",
+      "prerequisite": {
+        "op": "true"
+      },
+      "incompatible": [
+        "COMP1720"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible with COMP1720",
+      "reviewed": true
+    },
+    {
+      "code": "COMP6780",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP6780",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires enrolment in an ANU postgraduate program."
+      },
+      "incompatible": [
+        "COMP1710"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible with COMP1710\nTo enroll in this course students must be enrolled in a postgraduate program at ANU.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP7710",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP7710",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "You are not able to enrol in this course if you have previously completed or are currently enrolled in COMP1110 OR COMP1140 OR COMP6710"
+      },
+      "incompatible": [
+        "COMP1110",
+        "COMP1140",
+        "COMP6710"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "You are not able to enrol in this course if you have previously completed or are currently enrolled in COMP1110 OR COMP1140 OR COMP6710",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8011",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8011",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires 12 units of 6000-level COMP plus topic-specific prerequisites and a permission code."
+      },
+      "incompatible": [],
+      "repeatLimit": 3,
+      "requisiteText": "To enrol in this course you must have successfully completed 12 units of 6000-level COMP courses.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions Enrolling in CECC courses. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8020",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8020",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6390"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "unknown",
+            "reason": "Topic-specific prerequisites and a School permission code require confirmation."
+          }
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 3,
+      "requisiteText": "To enrol in this course, you must have completed COMP6390.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the prerequisites can request a permission code from the College. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8045",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8045",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires 12 units of 6000-level COMP plus topic-specific prerequisites and a permission code."
+      },
+      "incompatible": [],
+      "repeatLimit": 3,
+      "requisiteText": "To enrol in this course you must have successfully completed 12 units of 6000-level COMP coded courses.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions on Enrolling in CSS courses. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8260",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8260",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "6906XGDCP",
+          "MMLCV"
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in the Graduate Diploma of Computing or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8280",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8280",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "6906XGDCP",
+          "MMLCV"
+        ]
+      },
+      "incompatible": [
+        "COMP8260",
+        "ENGN8260",
+        "ENGN8280"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be enrolled in the Graduate Diploma of Computing or Master of Computing or Master of Computing (Advanced) or Master of Machine Learning and Computer Vision.\nIncompatible with COMP8260, ENGN8260 and ENGN8280.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8300",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8300",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6310",
+          "COMP2310",
+          "COMP6330",
+          "COMP3300",
+          "COMP6331",
+          "COMP3310",
+          "COMP6464",
+          "ENGN6539"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4300"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed:\nCOMP6310/2310 OR COMP6330/3300 OR COMP6331/3310 OR COMP6464 OR ENGN6539\nIncompatible with COMP4300.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8350",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8350",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6390",
+          "COMP6720"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4350"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed either COMP6390 or COMP6720.\nIncompatible with COMP4350.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8405",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8405",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8410",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8410",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP7240",
+              "COMP6240",
+              "COMP2400"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6730",
+              "COMP7230",
+              "COMP6710"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3420",
+        "COMP3425",
+        "COMP8400",
+        "COMP8910"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed\n COMP7240 or COMP6240 or COMP2400; and\n COMP6730 or COMP7230 or COMP6710.\nIncompatible with COMP3420 and COMP3425 and COMP8400 and COMP8910.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8430",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8430",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP7230",
+              "COMP6730",
+              "COMP6710"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP7240",
+              "COMP6240"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "unknown",
+            "reason": "Intensive-mode offerings require a permission code; confirm your class mode."
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP3430"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed either COMP7230, COMP6730 or COMP6710; AND COMP7240 or COMP6240.\nIncompatible with COMP3430.\nA permission code is needed to take this course in intensive mode.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8460",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8460",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6466",
+          "COMP3600"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4600"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course, you must have completed COMP6466 or COMP3600.\nIncompatible with COMP4600.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8539",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8539",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6528",
+          "COMP4528",
+          "ENGN4528"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "ENGN8501"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed:\nCOMP6528 or COMP4528 or ENGN4528.\nYou are not able to enrol in this course if you have previously completed ENGN8501.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8600",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8600",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must have completed COMP6670 or COMP3670. Incompatible with COMP4670."
+      },
+      "incompatible": [
+        "COMP4670"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6670 or COMP3670. Incompatible with COMP4670.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8610",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8610",
+      "prerequisite": {
+        "op": "or",
+        "children": [
+          {
+            "op": "program",
+            "codes": [
+              "7722XVCOMP"
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "program",
+                "codes": [
+                  "MMLCV"
+                ]
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP1110",
+                  "COMP1140"
+                ],
+                "concurrent": false
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "children": [
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6710",
+                  "COMP1110",
+                  "COMP1140"
+                ],
+                "concurrent": false
+              },
+              {
+                "op": "course",
+                "codes": [
+                  "COMP6390",
+                  "COMP6442",
+                  "COMP6540",
+                  "COMP6780",
+                  "COMP6720"
+                ],
+                "concurrent": false
+              }
+            ]
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4610",
+        "COMP6461"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe studying VCOMP\nOR \nbe studying MMLCV and have completed COMP6710 or COMP1110 or COMP1140\nOR\nhave completed (COMP6710 or COMP1110 or COMP1140) and have completed (COMP6390 or COMP6442 or COMP6540 or COMP6780 or COMP6720).\nYou are not able to enrol in this course if you have successfully completed COMP4610 or COMP6461.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8620",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8620",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6320",
+              "COMP3620"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "unknown",
+            "reason": "Topic-specific prerequisites and a permission code require confirmation."
+          }
+        ]
+      },
+      "incompatible": [
+        "COMP4620"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6320 or COMP3620.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page ) when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CSS courses .\nIncompatible with COMP4620. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8650",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8650",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6670",
+              "COMP8600"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "unknown",
+            "reason": "Check additional topic-specific prerequisites."
+          }
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6670 Introduction to Machine Learning or COMP8600 Statistical Machine Learning.\nAdditional Prerequisite courses for the Advanced Topic will be listed on the SoCo website (Special Topics in Computing page ) when the course topic is announced. Students who meet the pre-requisites can request a permission code following the instructions for Enrolling in CECC courses.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8691",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8691",
+      "prerequisite": {
+        "op": "course",
+        "codes": [
+          "COMP6320",
+          "COMP3620"
+        ],
+        "concurrent": false
+      },
+      "incompatible": [
+        "COMP4690"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6320 or COMP3620.\nIncompatible with COMP4690.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8712",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8712",
+      "prerequisite": {
+        "op": "and",
+        "children": [
+          {
+            "op": "course",
+            "codes": [
+              "COMP6442"
+            ],
+            "concurrent": false
+          },
+          {
+            "op": "course",
+            "codes": [
+              "COMP6310"
+            ],
+            "concurrent": false
+          }
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6442 AND COMP6310.\nStudents who have previously completed COMP3710 or COMP6470 - please contact CSS Student Services for a Permission Code.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8715",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8715",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must meet the eligibility criteria, which include membership of a student project group before the end of week 1, where the project has been approved by the convener.\nTo enrol in this course you must:\nbe enrolled in the Master of Computing (MCOMP) AND \nhave successfully completed:\n(COMP6442 or COMP2100) AND\n(COMP6250 or COMP8260 or COMP8280) AND\nhave successfully completed or be currently enrolled in (COMP2120 or COMP6120)\nOR\nbe enrolled in the Master of Machine Learning and Computer Vision (MMLCV) AND \nhave successfully completed:\n(COMP6442 or COMP2100) AND\n(COMP6250 or COMP8260 or COMP8280)\nIncompatible with COMP8755 and COMP8830 and COMP8800."
+      },
+      "incompatible": [
+        "COMP8755",
+        "COMP8830",
+        "COMP8800"
+      ],
+      "repeatLimit": 2,
+      "requisiteText": "To enrol in this course you must meet the eligibility criteria, which include membership of a student project group before the end of week 1, where the project has been approved by the convener.\nTo enrol in this course you must:\nbe enrolled in the Master of Computing (MCOMP) AND \nhave successfully completed:\n(COMP6442 or COMP2100) AND\n(COMP6250 or COMP8260 or COMP8280) AND\nhave successfully completed or be currently enrolled in (COMP2120 or COMP6120)\nOR\nbe enrolled in the Master of Machine Learning and Computer Vision (MMLCV) AND \nhave successfully completed:\n(COMP6442 or COMP2100) AND\n(COMP6250 or COMP8260 or COMP8280)\nIncompatible with COMP8755 and COMP8830 and COMP8800.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8800",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8800",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Research project requires program, GPA, completed-study and supervisor/permission checks."
+      },
+      "incompatible": [
+        "COMP8715",
+        "COMP8830"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nbe enrolled in the Master of Computing (Advanced) OR Master of Machine Learning and Computer Vision AND\nhave completed or be currently enrolled in COMP6445 AND\nhave completed (COMP8280 or COMP8260 or COMP6250) AND\nhave completed 36 units of COMP courses AND\nhave a GPA of 6 out of 7 AND\nreceive a permission code by completing the steps listed on Enrolling in student projects and having submitted the Student Project Registration Form.\nIncompatible with COMP8715 and COMP8830. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "COMP8830",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8830",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must:\nBe enrolled in the Master of Computing (MCOMP) or Master of Machine Learning and Computer Vision (MMLCV)\nand have successfully completed:\nCOMP6442 and (COMP8280 or COMP6250 or COMP8260)\nIncompatible with COMP8715 and COMP8755 and COMP8800.\nYou will need to undergo competitive entry to enrol in this course. \nYou will need to contact the School of Computing to request a permission code to enrol in this course."
+      },
+      "incompatible": [
+        "COMP8715",
+        "COMP8755",
+        "COMP8800"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must:\nBe enrolled in the Master of Computing (MCOMP) or Master of Machine Learning and Computer Vision (MMLCV)\nand have successfully completed:\nCOMP6442 and (COMP8280 or COMP6250 or COMP8260)\nIncompatible with COMP8715 and COMP8755 and COMP8800.\nYou will need to undergo competitive entry to enrol in this course. \nYou will need to contact the School of Computing to request a permission code to enrol in this course.",
+      "reviewed": false
+    },
+    {
+      "code": "COMP8880",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/COMP8880",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must have completed COMP6670.\nIncompatible with COMP4880."
+      },
+      "incompatible": [
+        "COMP4880"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must have completed COMP6670.\nIncompatible with COMP4880.",
+      "reviewed": false
+    },
+    {
+      "code": "ENGN6213",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/ENGN6213",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "MENG"
+        ]
+      },
+      "incompatible": [
+        "ENGN4213"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying Master of Engineering or Master of Computing or Master of Computing (Advanced). Incompatible with ENGN4213.",
+      "reviewed": true
+    },
+    {
+      "code": "ENGN8100",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/ENGN8100",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "7722XVCOMP",
+          "MENG",
+          "MPM",
+          "MBIS",
+          "GCNT"
+        ]
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying Master of Engineering, Master of Computing, Master of Computing (Advanced), Master of Project Management, Master of Business Information Systems or Graduate Certificate in Nuclear Technology and Regulation.",
+      "reviewed": true
+    },
+    {
+      "code": "INFS8004",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/INFS8004",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course, you must: be enrolled in the MMGNT - Master of Management or have completed INFS7004 - Accounting Information Systems ."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course, you must: be enrolled in the MMGNT - Master of Management or have completed INFS7004 - Accounting Information Systems .",
+      "reviewed": false
+    },
+    {
+      "code": "INFS8205",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/INFS8205",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course, you must have:be enrolled in one of the following programs: MMGNT - Master of Management ,or have completed at least one of the following courses: INFS8004 - Enterprise Systems INFS8008 - Intelligent Business Analysis INFS8210 - Business Analytics ."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course, you must have:be enrolled in one of the following programs: MMGNT - Master of Management ,or have completed at least one of the following courses: INFS8004 - Enterprise Systems INFS8008 - Intelligent Business Analysis INFS8210 - Business Analytics .",
+      "reviewed": false
+    },
+    {
+      "code": "LAWS8445",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/LAWS8445",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "To enrol in this course you must be studying a;\nMaster of Laws (MLLM) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of Law (CLAW) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of New Technologies Law; or\nJuris Doctor (MJD) and have completed or be completing five 6100 level LAWS courses; or\nMaster of Financial Management and Law (MFIML) and have completed or be completing LAWS8586 Law and Legal Institutions.\nYou are not able to enrol in this course if you have previously completed LAWS4245 Information Technology Law.\nStudents undertaking any ANU graduate program may apply for this course. Enrolments are accepted on a case-by-case basis. Please contact the ANU College of Law for appropriate permission."
+      },
+      "incompatible": [
+        "LAWS4245"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you must be studying a;\nMaster of Laws (MLLM) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of Law (CLAW) and have completed or be completing LAWS8586 Law and Legal Institutions; or\nGraduate Certificate of New Technologies Law; or\nJuris Doctor (MJD) and have completed or be completing five 6100 level LAWS courses; or\nMaster of Financial Management and Law (MFIML) and have completed or be completing LAWS8586 Law and Legal Institutions.\nYou are not able to enrol in this course if you have previously completed LAWS4245 Information Technology Law.\nStudents undertaking any ANU graduate program may apply for this course. Enrolments are accepted on a case-by-case basis. Please contact the ANU College of Law for appropriate permission.",
+      "reviewed": false
+    },
+    {
+      "code": "MATH6005",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/MATH6005",
+      "prerequisite": {
+        "op": "program",
+        "codes": [
+          "7706XMCOMP",
+          "6906XGDCP"
+        ]
+      },
+      "incompatible": [
+        "MATH1005"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "CECS students must be enrolled in a Graduate Diploma of Computing or a Master of Computing to enrol in this course.\nIncompatible: MATH1005",
+      "reviewed": true
+    },
+    {
+      "code": "MATH6114",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/MATH6114",
+      "prerequisite": {
+        "op": "permission",
+        "reason": "A Mathematical Sciences Institute permission code is required."
+      },
+      "incompatible": [
+        "MATH3301"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "Incompatible: MATH3301. \nYou will need to contact the Mathematical Sciences Institute to request a permission code to enrol in this course.",
+      "reviewed": true
+    },
+    {
+      "code": "MATH8343",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/MATH8343",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "Requires an eligible Mathematical Sciences program or an explicit enrolment approval."
+      },
+      "incompatible": [
+        "MATH3343",
+        "MATH4343",
+        "MATH6203"
+      ],
+      "repeatLimit": 1,
+      "requisiteText": "To enrol in this course you need to be active in the Master of Mathematical Sciences (Advanced) or Master of Science in Mathematical Sciences.\nIncompatible with MATH3343, MATH4343 and MATH6203.",
+      "reviewed": true
+    },
+    {
+      "code": "MGMT7020",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/MGMT7020",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "REGN8014",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/REGN8014",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    },
+    {
+      "code": "STAT6039",
+      "year": 2027,
+      "source": "https://programsandcourses.anu.edu.au/2027/course/STAT6039",
+      "prerequisite": {
+        "op": "unknown",
+        "reason": "No reviewed prerequisite information for this teaching year."
+      },
+      "incompatible": [],
+      "repeatLimit": 1,
+      "requisiteText": "",
+      "reviewed": false
+    }
+  ]
+}

@@ -77,3 +77,30 @@ export const loginAttempts = sqliteTable(
 
 export type User = typeof users.$inferSelect;
 export type Session = typeof sessions.$inferSelect;
+
+export const releases = sqliteTable("catalogue_releases",{
+ id:text().primaryKey(), importedAt:text("imported_at").notNull(), hash:text().notNull()
+});
+export const catalogueEntries=sqliteTable("catalogue_entries",{
+ id:text().primaryKey(),release:text().notNull().references(()=>releases.id),year:int().notNull(),kind:text().notNull(),code:text().notNull(),name:text().notNull(),payload:text().notNull()
+},t=>[index("catalogue_search_idx").on(t.year,t.kind,t.code)]);
+export const profiles=sqliteTable("profiles",{
+ userId:int("user_id").primaryKey().references(()=>users.id,{onDelete:"cascade"}),
+ revision:int().notNull().default(0),records:text().notNull().default("[]")
+});
+export const plans=sqliteTable("plans",{
+ id:text().primaryKey(),userId:int("user_id").notNull().references(()=>users.id,{onDelete:"cascade"}),
+ name:text().notNull(),program:text().notNull(),cohort:int().notNull(),specialisation:text().notNull().default(""),
+ load:int().notNull().default(24),studentType:text("student_type").notNull().default("domestic"),
+ release:text().notNull().references(()=>releases.id),revision:int().notNull().default(0),
+ createdAt:text("created_at").notNull().default(sql`(datetime('now'))`)
+},t=>[index("plans_owner_idx").on(t.userId)]);
+export const selections=sqliteTable("selections",{
+ id:text().primaryKey(),planId:text("plan_id").notNull().references(()=>plans.id,{onDelete:"cascade"}),
+ code:text().notNull(),units:int().notNull(),year:int().notNull(),session:text().notNull(),topic:text().notNull().default("")
+},t=>[uniqueIndex("selection_attempt_unique").on(t.planId,t.code,t.year,t.session)]);
+export const history=sqliteTable("change_history",{
+ id:int().primaryKey({autoIncrement:true}),userId:int("user_id").notNull().references(()=>users.id,{onDelete:"cascade"}),
+ planId:text("plan_id"),action:text().notNull(),detail:text().notNull(),createdAt:text("created_at").notNull().default(sql`(datetime('now'))`)
+},t=>[index("history_owner_idx").on(t.userId)]);
+
