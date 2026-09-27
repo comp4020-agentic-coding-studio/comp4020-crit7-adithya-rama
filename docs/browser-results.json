@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-27T05:31:29.270Z",
+  "base": "http://127.0.0.1:4321",
+  "checks": [
+    "desktop home: axe, contrast and overflow passed",
+    "desktop /explore: axe, contrast and overflow passed",
+    "desktop /account?mode=register: axe, contrast and overflow passed",
+    "desktop /sources: axe, contrast and overflow passed",
+    "desktop /catalogue/2025/program/7706XMCOMP: axe, contrast and overflow passed",
+    "desktop /catalogue/2026/specialisation/HCCM-SPEC: axe, contrast and overflow passed",
+    "desktop /catalogue/2026/course/COMP6442: axe, contrast and overflow passed",
+    "desktop /readme/: axe, contrast and overflow passed",
+    "desktop authenticated plan: axe, contrast and overflow passed",
+    "desktop study: axe, contrast and overflow passed",
+    "desktop printable review: axe, contrast and overflow passed",
+    "desktop: database and session survived process restart and migrations",
+    "desktop: keyboard focus, demo isolation, course move, year-limited substitution, valid alternative saved and reloaded, failed-save retry, academic record reload, demo adoption, sign-out/sign-in and print passed",
+    "mobile home: axe, contrast and overflow passed",
+    "mobile /explore: axe, contrast and overflow passed",
+    "mobile /account?mode=register: axe, contrast and overflow passed",
+    "mobile /sources: axe, contrast and overflow passed",
+    "mobile /catalogue/2025/program/7706XMCOMP: axe, contrast and overflow passed",
+    "mobile /catalogue/2026/specialisation/HCCM-SPEC: axe, contrast and overflow passed",
+    "mobile /catalogue/2026/course/COMP6442: axe, contrast and overflow passed",
+    "mobile /readme/: axe, contrast and overflow passed",
+    "mobile authenticated plan: axe, contrast and overflow passed",
+    "mobile study: axe, contrast and overflow passed",
+    "mobile printable review: axe, contrast and overflow passed",
+    "mobile: database and session survived process restart and migrations",
+    "mobile: keyboard focus, demo isolation, course move, year-limited substitution, valid alternative saved and reloaded, failed-save retry, academic record reload, demo adoption, sign-out/sign-in and print passed"
+  ],
+  "screenshots": [
+    "desktop-home.png",
+    "desktop-plan.png",
+    "mobile-home.png",
+    "mobile-plan.png"
+  ]
+}

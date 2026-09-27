@@ -30,7 +30,7 @@ function scryptAsync(
 // Fly machine has 256MB total, so unbounded concurrent sign-ins would OOM the
 // box rather than merely slow it down.
 const SCRYPT = { N: 16384, r: 8, p: 1, keylen: 64 } as const;
-const MAX_CONCURRENT_HASHES = 2;
+const MAX_CONCURRENT_HASHES = 1;
 
 let active = 0;
 const waiting: Array<() => void> = [];

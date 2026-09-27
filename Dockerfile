@@ -37,6 +37,8 @@ COPY --from=build /app/dist /app/dist
 # the committed migrations, applied at boot (see src/lib/db.ts)
 COPY --from=build /app/drizzle /app/drizzle
 
+# Leave room for SQLite, password hashing and the Fly VM within 256 MB.
+ENV NODE_OPTIONS="--max-old-space-size=80 --max-semi-space-size=2"
 ENV HOST=0.0.0.0
 ENV PORT=4321
 EXPOSE 4321

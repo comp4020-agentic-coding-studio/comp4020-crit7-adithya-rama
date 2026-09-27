@@ -1,0 +1,6 @@
+---
+import Layout from "../layouts/Layout.astro";
+import * as review from "../../docs/SOURCE-REVIEW.md";
+const html=await review.compiledContent();
+---
+<Layout title="Sources and reviewed rules" active="About"><article class="prose" set:html={html}/></Layout>

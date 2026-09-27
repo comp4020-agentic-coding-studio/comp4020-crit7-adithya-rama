@@ -39,5 +39,5 @@ Use the pinned tools in WSL: `mise exec -- pnpm check` for type, build, HTTP and
 
 Keep the Fly token only in ignored `mise.local.toml`. Never use an ANUHub password for this prototype.
 
-Browser verification: run `mise exec -- pnpm check:browser` after building. Install Chromium with `pnpm exec playwright install chromium` if needed. Source coverage and unresolved interpretations are recorded in [the source review](docs/SOURCE-REVIEW.md).
+Browser verification: run `mise exec -- pnpm check:browser` after building. Install Chromium with `pnpm exec playwright install chromium` if needed. Source coverage and unresolved interpretations are recorded in [the source review](/sources).
 

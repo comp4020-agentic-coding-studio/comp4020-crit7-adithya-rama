@@ -73,7 +73,7 @@ export function evaluate(p:Plan,records:StudyRecord[],projected=false):Audit{
  
  function walk(i:number,filled:number[],credited:number[],specCredit:number,level8:number,credit8:number,spec8:number,allocation:Record<string,string>){
   if(perfect)return;
-  if(++visits>150000){bounded=true;return;}
+  if(++visits>20000){bounded=true;return;}
   const specTotal=filled.reduce((s,v,j)=>s+(buckets[j].parent==="specialisation"?v:0),0);
   const score=Math.min(specTotal,24)*200+filled.reduce((s,v,j)=>s+Math.min(v,buckets[j].min)*100+(v>=buckets[j].min?5:0),0)+Math.min(level8,rule!.level8Min)*10+Math.min(spec8,spec?.level8Min||0)*10+filled.reduce((a,b)=>a+b,0);
   if(score>bestScore){bestScore=score;bestFilled=[...filled];bestAssign={...allocation};best8=level8;bestSpec8=spec8;}

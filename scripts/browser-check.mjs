@@ -14,6 +14,7 @@ async function start(){
  for(let i=0;i<60;i++){try{if((await fetch(base)).ok)return;}catch{}await new Promise(r=>setTimeout(r,100));}
  throw Error("Server did not start");
 }
+const prefix=process.env.TEST_URL?"live-":"";
 const report={date:new Date().toISOString(),base,checks:[],screenshots:[]};
 mkdirSync("docs/screenshots",{recursive:true});
 await start();
@@ -34,12 +35,14 @@ try{
   assert.equal(await page.locator(".skip").evaluate(e=>e===document.activeElement),true);
   assert.notEqual(await page.locator(".skip").evaluate(e=>getComputedStyle(e).outlineStyle),"none");
   await audit(page,label+" home");
-  await page.keyboard.press("Tab"); await page.screenshot({path:"docs/screenshots/"+label+"-home.png",fullPage:true});
+  await page.keyboard.press("Tab"); await page.screenshot({path:"docs/screenshots/"+prefix+label+"-home.png",fullPage:true});
+  for(const path of ["/explore","/account?mode=register","/sources","/catalogue/2025/program/7706XMCOMP","/catalogue/2026/specialisation/HCCM-SPEC","/catalogue/2026/course/COMP6442","/readme/"]){await page.goto(base+path);await audit(page,label+" "+path);}
+  await page.goto(base);
   await page.getByRole("button",{name:/example plan/}).click();
   await page.waitForURL("**/plan?**");
   const planUrl=page.url();const id=new URL(planUrl).searchParams.get("id");
   await audit(page,label+" authenticated plan");
-  await page.screenshot({path:"docs/screenshots/"+label+"-plan.png",fullPage:true});
+  await page.screenshot({path:"docs/screenshots/"+prefix+label+"-plan.png",fullPage:true});
   const selected=page.locator(".planned-course").filter({hasText:"COMP8020"});
   await selected.getByText("Why this counts & conditions").click();
   await selected.getByText("Move course",{exact:true}).click();
@@ -105,10 +108,10 @@ try{
    report.checks.push(label+": database and session survived process restart and migrations");
   }
   report.checks.push(label+": keyboard focus, demo isolation, course move, year-limited substitution, valid alternative saved and reloaded, failed-save retry, academic record reload, demo adoption, sign-out/sign-in and print passed");
-  report.screenshots.push(label+"-home.png",label+"-plan.png");
+  report.screenshots.push(prefix+label+"-home.png",prefix+label+"-plan.png");
   await context.close();
  }
- writeFileSync("docs/browser-results.json",JSON.stringify(report,null,2));
+ writeFileSync("docs/"+prefix+"browser-results.json",JSON.stringify(report,null,2));
  console.log(JSON.stringify(report,null,2));
 }catch(e){console.error(e);for(const c of browser.contexts())for(const p of c.pages())await p.screenshot({path:"docs/screenshots/failure.png",fullPage:true}).catch(()=>{});process.exitCode=1;}
 finally{await browser.close();server?.kill();}

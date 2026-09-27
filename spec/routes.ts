@@ -1,1 +1,1 @@
-export const ROUTES=["/","/explore","/account","/account?mode=register","/account?mode=recover","/study","/plan","/review","/catalogue/2025/program/7706XMCOMP","/catalogue/2026/course/COMP6442","/readme/"];
+export const ROUTES=["/","/explore","/account","/account?mode=register","/account?mode=recover","/study","/plan","/review","/catalogue/2025/program/7706XMCOMP","/catalogue/2026/course/COMP6442","/sources","/readme/"];
