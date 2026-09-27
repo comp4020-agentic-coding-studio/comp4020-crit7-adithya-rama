@@ -1,0 +1,8 @@
+---
+import {catalogue} from "../lib/catalogue";
+interface Props {id?:string;value?:string;year?:number}
+const {id="course",value="",year=2026}=Astro.props;
+const options=catalogue.filter(c=>c.kind==="course"&&c.year===year);
+---
+<label for={id}>Course code</label><input id={id} name="code" list={id+"-list"} value={value} required placeholder="e.g. COMP6390" autocomplete="off"/>
+<datalist id={id+"-list"}>{options.map(c=><option value={c.code}>{c.name}</option>)}</datalist>

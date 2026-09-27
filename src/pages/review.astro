@@ -1,0 +1,23 @@
+---
+import Layout from "../layouts/Layout.astro";
+import {currentUser} from "../lib/auth";
+import {getPlan,records} from "../lib/store";
+import {evaluate,planIssues} from "../lib/engine";
+import {item} from "../lib/catalogue";
+import {semesterLabel,type Plan} from "../lib/types";
+const user=currentUser(Astro.cookies);let p:Plan|undefined;
+if(user){try{p=getPlan(user.id,Astro.url.searchParams.get("id")||"");}catch{Astro.response.status=404;}}
+const rs=user?records(user.id):[],done=p?evaluate(p,rs):null,future=p?evaluate(p,rs,true):null,issues=p?planIssues(p,rs):[];
+---
+<Layout title="Review your plan" active="My plan">
+{!p?<div class="empty-state"><h1>Your plan review</h1><p>Sign in and choose a plan to review.</p><a class="button primary" href="/plan">Choose a plan →</a></div>:<>
+<div class="page-heading heading-row"><div><p class="eyebrow">A CLEARER CONVERSATION WITH YOUR ADVISER</p><h1>{p.name}</h1><p>{item("program",p.program,p.cohort)?.name} · {p.cohort} commencement rules</p></div><button class="button primary print-hide" id="print-plan">Print / save as PDF ↗</button></div>
+<p class="note">Student-entered records · {p.release} · This is a planning summary, not ANU enrolment or graduation approval.</p>
+{done!.supported?<div class="review-summary"><div><strong>{done!.allocated} / 96</strong><span>Completed & credited units allocated</span></div><div><strong>{future!.allocated} / 96</strong><span>Projected units, including future choices</span></div></div>:<p>Automatic degree checking is not available for this program.</p>}
+<section><h2>Academic history</h2><table class="review-table"><thead><tr><th>Course / record</th><th>Status</th><th>Period</th><th>Units</th></tr></thead><tbody>{rs.map(r=><tr><td>{r.code}</td><td>{r.kind} {r.kind.includes("credit")||r.kind==="exemption"?"· "+r.approval+" (reported by you)":""}</td><td>{r.year} · {semesterLabel(r.session)}</td><td>{r.units}</td></tr>)}</tbody></table></section>
+<section><h2>Future choices</h2><table class="review-table"><thead><tr><th>Course</th><th>Period</th><th>Units</th><th>Projected allocation</th></tr></thead><tbody>{p.selections.map(s=><tr><td>{s.code}</td><td>{s.year} · {semesterLabel(s.session)}</td><td>{s.units}</td><td>{future!.requirements.find(r=>r.id===future!.allocations[s.id])?.name||"Unallocated"}</td></tr>)}</tbody></table></section>
+{done!.supported&&<section><h2>Requirement audit</h2><table class="review-table"><thead><tr><th>Requirement</th><th>Completed</th><th>Projected</th><th>Required</th></tr></thead><tbody>{done!.requirements.map(r=><tr><td><a href={r.source}>{r.name}</a></td><td>{r.units}</td><td>{future!.requirements.find(a=>a.id===r.id)?.units||0}</td><td>{r.min===r.max?r.min:r.min+"–"+r.max}</td></tr>)}</tbody></table></section>}
+<section><h2>Questions to resolve before enrolment</h2>{[...future!.issues,...issues].length?<ul>{[...new Set([...future!.issues,...issues])].map(i=><li>{i}</li>)}</ul>:<p>No additional issues identified in the reviewed checks. Verify your official record with ANU.</p>}<p class="fine">Projected progress depends on passing all planned study and resolving course permissions and availability. Source links appear with individual requirement explanations.</p></section><a class="button secondary print-hide" href={"/plan?id="+p.id}>← Back to my plan</a>
+</>}
+<script>document.getElementById("print-plan")?.addEventListener("click",()=>window.print());</script>
+</Layout>

@@ -1,0 +1,35 @@
+---
+import "../styles.css";
+import {currentUser} from "../lib/auth";
+interface Props {title:string;active?:string;wide?:boolean}
+const {title,active="Explore",wide=false}=Astro.props;
+const user=currentUser(Astro.cookies);
+---
+<!doctype html>
+<html lang="en-AU">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content="Know what counts. A student-built ANU course catalogue and degree planner."/><title>{title} · Programs & Courses</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"/></head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="prototype-bar" role="region" aria-label="Prototype notice"><span>AN ANU STUDENT PROJECT</span><span>Independent prototype · Public catalogue, personal plans</span></div>
+<header class="site-header">
+<a class="brand" href="/" aria-label="Programs and Courses home"><span class="brand-mark">P<span>&</span>C</span><span>Programs <i>&</i> Courses<small>THE STUDY PLANNER</small></span></a>
+<nav aria-label="Main navigation">{[{label:"Explore",href:"/explore"},{label:"My study",href:"/study"},{label:"My plan",href:"/plan"},{label:"About",href:"/readme/"}].map(n=><a href={n.href} aria-current={active===n.label?"page":undefined}>{n.label}</a>)}</nav>
+<a class="account-link" href="/account"><span class="avatar" aria-hidden="true">{user?(user.username.startsWith("demo_")?"D":user.username[0].toUpperCase()):"↗"}</span>{user?(user.username.startsWith("demo_")?"Save your demo":"My account"):"Sign in"}</a>
+</header>
+<main id="main" class:list={["shell",{wide}]}><slot/></main>
+<footer class="site-footer"><span class="footer-brand">A little clarity. A better semester.</span><span>Built for COMP4020 · Crit 7 <a href="/readme/">About this prototype ↗</a></span><p>Independent student prototype. Records are entered by you. Planning checks explain reviewed rules; ANU confirms enrolment and graduation.</p></footer>
+<script>
+ document.addEventListener("submit",async(event)=>{
+  const form=event.target;if(!(form instanceof HTMLFormElement)||form.getAttribute("action")!=="/api/action")return;
+  event.preventDefault();let feedback=form.querySelector<HTMLElement>(".form-feedback");
+  if(!feedback){feedback=document.createElement("p");feedback.className="form-feedback";feedback.setAttribute("role","alert");form.append(feedback);}
+  const buttons=form.querySelectorAll<HTMLButtonElement>('button[type="submit"],button:not([type])');
+  buttons.forEach(b=>b.disabled=true);feedback.textContent="Saving…";
+  try{const response=await fetch("/api/action",{method:"POST",body:new FormData(form),headers:{Accept:"application/json"}});
+   const result=await response.json();if(result.ok){location.assign(result.location);return;}
+   feedback.textContent=result.message||"Unable to save. Please try again.";feedback.focus();
+  }catch{feedback.textContent="Connection lost. Your entries are still here. Try saving again.";}
+  buttons.forEach(b=>b.disabled=false);
+ });
+</script>
+</body></html>

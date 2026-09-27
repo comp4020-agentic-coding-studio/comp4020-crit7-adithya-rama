@@ -36,6 +36,7 @@ let active = 0;
 const waiting: Array<() => void> = [];
 
 async function withHashSlot<T>(work: () => Promise<T>): Promise<T> {
+  if (waiting.length >= 20) throw new Error("Password service is busy. Try again shortly.");
   if (active >= MAX_CONCURRENT_HASHES) {
     await new Promise<void>((resolve) => waiting.push(resolve));
   }
@@ -68,7 +69,8 @@ export async function verifyPassword(
   password: string,
   stored: string,
 ): Promise<boolean> {
-  const [scheme, , , , saltB64, keyB64] = stored.split("$");
+  const [scheme, n, r, p, saltB64, keyB64] = stored.split("$");
+  if (Number(n)!==SCRYPT.N||Number(r)!==SCRYPT.r||Number(p)!==SCRYPT.p) return false;
   if (scheme !== "scrypt" || !saltB64 || !keyB64) return false;
   const expected = Buffer.from(keyB64, "base64");
   const actual = await derive(password, Buffer.from(saltB64, "base64"));

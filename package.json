@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "typecheck": "astro check",
     "check": "pnpm typecheck && pnpm test",
+    "check:browser": "node scripts/browser-check.mjs",
     "check:evidence": "node scripts/check-evidence.ts",
     "test": "astro build && vitest run",
     "db:generate": "drizzle-kit generate"
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
+    "@playwright/test": "^1.63.0",
     "@types/better-sqlite3": "^7.6.13",
     "@types/jsdom": "^28.0.3",
     "axe-core": "^4.13.0",
