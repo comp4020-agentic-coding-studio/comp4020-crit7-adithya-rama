@@ -1,11 +1,20 @@
 # Your harness
 
-This file is yours, and it arrives empty on purpose. The rules you hold the
-agent to are part of what gets marked, so they should be rules you decided on.
+This file carries forward across the course. What's below are the working
+conventions that stuck from prior weeks — the brief and spec for *this*
+deliverable live on the course website, not here.
 
-Nothing about the starter is recorded here. What the repo ships is explained
-where it lives --- `fly.toml`, the `Dockerfile`, the CI workflow and
-`spec/README.md` each say what they fix --- and the
-[course website](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/)
-publishes this deliverable's brief and spec. Read them before you plan or build;
-what the agent needs to carry from any of it is your call.
+## Environment
+
+- Run project commands in WSL with the pinned Node and pnpm versions through
+  mise. Put `$HOME/.local/bin` on PATH if needed.
+
+## Git
+
+- Keep commits unsigned. The user controls pushing and publication unless they
+  explicitly change that instruction.
+
+## Repo hygiene
+
+- Respect the repository base path for every internal link and asset. Never
+  hand-edit generated API JSON or bypass build validation.
